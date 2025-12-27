@@ -31,6 +31,11 @@
             color: #000;
         }
 
+        .logo img{
+            height: 130px;
+            width: 130px;
+        }
+
         .desktop-menu {
             display: flex;
             gap: 3rem;
@@ -142,33 +147,13 @@
             transform: translateX(0);
         }
 
-        .transition-logo {
-            width: 120px;
-            height: 120px;
-            border: 3px solid #000;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            font-weight: 300;
-            letter-spacing: 0.2em;
-            color: #000;
-            animation: rotateLogo 1.5s ease-in-out infinite;
+
+        .transition-logo img{
+            height: 400px;
+            width: 400px;
         }
 
-        .transition-text {
-            font-size: 4rem;
-            font-weight: 300;
-            letter-spacing: 0.4em;
-            color: #000;
-            animation: fadeInOut 1.5s ease-in-out infinite;
-        }
 
-        @keyframes rotateLogo {
-            0%, 100% { transform: rotate(0deg) scale(1); }
-            50% { transform: rotate(180deg) scale(1.1); }
-        }
 
         @keyframes fadeInOut {
             0%, 100% { opacity: 0.5; }
