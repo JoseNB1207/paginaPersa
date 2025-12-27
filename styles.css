@@ -24,16 +24,10 @@
             align-items: center;
         }
 
-        .logo {
-            font-size: 2rem;
-            font-weight: 300;
-            letter-spacing: 0.3em;
-            color: #000;
-        }
-
         .logo img{
-            height: 130px;
-            width: 130px;
+            height: 120px;
+            width: 120px;
+            padding-top: 0px;
         }
 
         .desktop-menu {
